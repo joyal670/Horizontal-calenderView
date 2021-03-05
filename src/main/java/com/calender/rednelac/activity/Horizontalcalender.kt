@@ -11,7 +11,7 @@ import kotlinx.android.synthetic.main.activity_main.*
 import java.util.*
 import kotlin.math.log
 
-class horizontalcalender(context: Context) : AppCompatActivity()
+class Horizontalcalender(context: Context) : AppCompatActivity()
 {
     private val calendar = Calendar.getInstance()
     private var currentMonth = 0
@@ -24,7 +24,7 @@ class horizontalcalender(context: Context) : AppCompatActivity()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_calander)
 
         //Setting current month
         calendar.time = Date()
